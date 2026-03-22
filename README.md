@@ -4,7 +4,7 @@
 # GreenTech MVP Sostenible
 
 ## Qué he hecho
-He refactorizado una landing page eliminando dependencias innecesarias como Bootstrap, jQuery y Moment.js, sustituyéndolas por HTML, CSS y JavaScript nativo.
+He refactorizado el index.html eliminando dependencias innecesarias como Bootstrap, jQuery y Moment.js, sustituyéndolas por HTML, CSS y JavaScript nativo.
 
 ## Mejoras aplicadas
 - Eliminación de frameworks pesados
