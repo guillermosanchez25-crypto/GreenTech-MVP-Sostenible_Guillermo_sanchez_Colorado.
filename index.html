@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+      <!-- Hace la web responsive sin necesidad de Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Salvemos el Planeta - GreenTech</title>
+    
+    <!-- En esta parte deberian ir los links de enlaces de boostrap, javascript y el css, 
+    esto hace que la pagina web pese tanto, lo que vamos a hacer a continuacion es implementar el css dentro del index.html -->
+
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #f4fdf4;
+        margin: 0;
+      }
+    .hero { /*El .hero lo hemos optimizado porque era demasiado grande para una web tan simple*/
+      /* Imagen optimizada, menos resolución y menos consumo */
+      background: url("https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200&auto=format&fit=crop") no-repeat center/cover;
+      
+      height: 100vh;
+
+      /* Flexbox → sustituye utilidades de Bootstrap */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+    /* Botón creado con CSS → elimina Bootstrap */
+    .btn {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      background-color: #28a745;
+      border: none;
+      border-radius: 50px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #1e7e34;
+    }
+
+        /* Footer simple pero optimizado */
+    footer {
+      text-align: center;
+      padding: 10px;
+      background: #222;
+      color: white;
+    }
+    </style>
+  </head>
+<body>
+
+  <div class="hero">
+    <h1>Salvemos el Planeta</h1>
+    <p>Únete a la revolución verde de GreenTech.</p>
+
+    <!--  sustituimos Font Awesome (menos peso) -->
+    <button class="btn">🌱 Quiero ayudar</button>
+  </div>
+
+  <!-- Footer vacío que rellenamos con JS -->
+  <footer id="footer"></footer>
+
+  <script>
+    /* JavaScript nativo, asi eliminamos jQuery y Moment.js */
+    const year = new Date().getFullYear();
+
+    /* Insertamos  el año automáticamente */
+    document.getElementById("footer").textContent =
+      `GreenTech Solutions © ${year} - Haciendo un mundo mejor (Y sin calentar tu CPU)`;
+  </script>
+
+</body>
+</html>
