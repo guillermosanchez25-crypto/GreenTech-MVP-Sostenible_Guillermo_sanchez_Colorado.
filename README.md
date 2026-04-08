@@ -7,9 +7,9 @@
 He refactorizado el index.html eliminando dependencias innecesarias como Bootstrap, jQuery y Moment.js, sustituyéndolas por HTML, CSS y JavaScript nativo.
 
 ## Mejoras aplicadas
-- Eliminado Bootstrap → ahorro ~150KB
-- Eliminado jQuery + Moment → ahorro ~100KB+
-- Eliminado Font Awesome → ahorro ~70KB
+- Eliminado Bootstrap 
+- Eliminado jQuery + Moment 
+- Eliminado Font Awesome 
 
 
 
@@ -20,11 +20,7 @@ He refactorizado el index.html eliminando dependencias innecesarias como Bootstr
 - Optimizamos el footer
 - Con un par de Scripts de JS insertamos el año automaticamente en el footer sin necesidad de usar JQuery o 	Moment.js
 
-## Impacto ambiental
-La reducción del peso de la web disminuye el consumo energético en:
-- Dispositivos de usuario
-- Redes de transmisión
-- Centros de datos
+
 
 Esto contribuye a:
 - Menor huella de carbono (menor rendimiento = menor energia)
