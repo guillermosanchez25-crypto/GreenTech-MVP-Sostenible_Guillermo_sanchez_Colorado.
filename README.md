@@ -13,7 +13,6 @@ He refactorizado el index.html eliminando dependencias innecesarias como Bootstr
 
 
 
-- Imagen optimizada (3000px → 1200px)
 - JS reducido a nativo
 - El .hero esta optimizado, antes era gigante
 - sustituimos utilidades de bootstrap con un flexbox
@@ -28,9 +27,8 @@ La reducción del peso de la web disminuye el consumo energético en:
 - Centros de datos
 
 Esto contribuye a:
-- Menor huella de carbono
-- Mayor vida útil del hardware
-- Menos residuos electrónicos
+- Menor huella de carbono (menor rendimiento = menor energia)
+- Mayor vida útil del hardware (no se sobrecalienta el dispositivo y la bateria dura mas)
 
 ## Relación con economía circular
 Un software más ligero:
